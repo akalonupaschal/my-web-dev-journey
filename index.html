@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>My Web Dev Journey</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+  <body>
+
+    <nav>
+      <div class="logo">Paschal Dev</div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <header>
+      <h1>Paschal's Web Dev Journey</h1>
+      <p>Learning HTML one lesson at a time</p>
+      <button class="hero-btn" id="viewWorkBtn">View My Work</button>
+    </header>
+
+    <main>
+      <h2 id="skills">Skills I'm Learning</h2>
+
+      <div class="cards-container">
+        <div class="card">
+          <h3>HTML</h3>
+          <p>The structure of every webpage on the internet.</p>
+        </div>
+        <div class="card">
+          <h3>CSS</h3>
+          <p>Makes websites look beautiful and professional.</p>
+        </div>
+        <div class="card">
+          <h3>JavaScript</h3>
+          <p>Brings websites to life with interactivity.</p>
+        </div>
+      </div>
+
+      <h2 id="contact">Contact Me</h2>
+      <div class="contact-form">
+        <div id="successMessage" class="success-message">
+          ✅ Message sent! I'll get back to you soon.
+        </div>
+        <form id="contactForm">
+          <label>Your Name</label>
+          <input type="text" id="nameInput" placeholder="Enter your name">
+          <label>Your Email</label>
+          <input type="email" id="emailInput" placeholder="Enter your email">
+          <label>Your Message</label>
+          <textarea id="messageInput" placeholder="Write your message here"></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+
+    </main>
+
+    <footer>
+      <p>Built by Paschal Akalonu — 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
